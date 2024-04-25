@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+  height: 4000px;
+  background-color: #7a8082;
+}
+
+.mainDiv {
+  height: 65%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 160px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(31, 29, 29);
+}
+
+.my-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ttl {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.question {
+  margin-bottom: 60px;
+  display: block;
+
+}
+.question h3{
+  color: black;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-top: 10px;
+}
+.answer label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="text"],
+select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #534f4f;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.going {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sbmt {
+  padding: 20px 20px;
+  background-color: #3285de;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sbmt:hover {
+  background-color: #0056b3;
+}
+
+
+/* Стили для контейнера чекбоксов */
+label {
+  display: block;
+  /* Размещаем каждый чекбокс на новой строке */
+  margin-bottom: 15px;
+  /* Отступ между чекбоксами */
+  font-size: 16px;
+  /* Размер шрифта */
+  margin-left: 0px;
+}
+
+/* Стили для чекбокса */
+input[type="checkbox"] {
+  margin-left: 0px;
+  /* Отступ между чекбоксом и текстом */
+  transform: translateY(2px);
+  /* Сдвигаем чекбокс немного вниз, чтобы выровнять с текстом */
+}
+
+/* Стили для текста рядом с чекбоксом */
+label span {
+  vertical-align: middle;
+  /* Выравниваем текст по вертикали по центру */
+}
+
+/* Изменение внешнего вида чекбокса */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  /* Убираем стандартный внешний вид чекбокса */
+  -moz-appearance: none;
+  appearance: none;
+  width: 18px;
+  /* Задаем размеры чекбокса */
+  height: 18px;
+  border: 2px solid #666;
+  /* Цвет рамки чекбокса */
+  border-radius: 3px;
+  /* Закругляем углы */
+  outline: none;
+  /* Убираем обводку при фокусе */
+  cursor: pointer;
+  /* Изменяем курсор при наведении */
+}
+
+/* Стили для отмеченного чекбокса */
+input[type="checkbox"]:checked {
+  background-color: #2196F3;
+  /* Цвет фона при отмеченном состоянии */
+  border-color: #2196F3;
+  /* Цвет рамки при отмеченном состоянии */
+}
+
+/* Скрытие маркера чекбокса при его отмеченном состоянии */
+input[type="checkbox"]:checked::before {
+  content: "\2713";
+  /* Unicode символ галочки */
+  display: block;
+  text-align: center;
+  line-height: 16px;
+  /* Высота галочки */
+  color: white;
+  /* Цвет галочки */
+}
+
+.admin_btn {
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  background-color: white;
+  color: black;
+}
+
+.admin_btn a {
+  text-decoration: none;
+}

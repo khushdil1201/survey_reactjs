@@ -1,0 +1,74 @@
+.survey-editor-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(204, 206, 206);
+}
+
+.question-block {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #282c34;
+}
+
+.question-block p,h3{
+  color: white;
+}
+.edit-mode input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin-bottom: 10px; /* Добавляем расстояние между кнопками */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button.edit {
+  background-color: #2ecc71; /* Цвет кнопки редактирования */
+  color: white;
+}
+
+.button-container button.delete {
+  background-color: #e74c3c; /* Цвет кнопки удаления */
+  color: white;
+}
+
+.button-container button.save {
+  background-color: #2ecc71; /* Цвет кнопки сохранения */
+  color: white;
+}
+
+.select-container {
+  margin-top: 10px;
+}
+
+select {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-question{
+  margin: 10px;
+  width: 280px;
+  background-color: #5daa7f;
+}
+.btn-survey, .add-question{
+  width: 280px;
+  background-color: #262827;
+  color:white;
+  margin: 30px;
+} 
