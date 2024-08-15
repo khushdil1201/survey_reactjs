@@ -1,5 +1,5 @@
 import React from 'react';
-import AdminPage from './components/AdminPage.jsx' // Импортируйте компонент AdminPage
+import AdminPage from './pages/AdminPage.jsx' // Импортируйте компонент AdminPage
 import './App.css';
 
 function App() {

@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import QuestionPage from './components/QuestionPage.jsx'
-import Form from './components/Form.jsx'
-import RegistrationPage from './components/RegistrationPage.jsx';
-import SurveyResultsPage from './components/SurveyResultsPage.jsx';
+import QuestionPage from './pages/QuestionPage.jsx'
+import Form from './pages/Form.jsx'
+import RegistrationPage from './pages/RegistrationPage.jsx';
+import SurveyResultsPage from './pages/SurveyResultsPage.jsx';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
